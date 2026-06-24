@@ -11,6 +11,7 @@ venv/
 # Large datasets
 content_data/
 style_data/
+training/
 
 # OS / editor files
 .DS_Store
