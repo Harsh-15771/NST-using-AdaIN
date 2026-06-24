@@ -268,7 +268,7 @@ During training, style images were taken from the Painter by Numbers dataset and
 ## 1. Clone the repository
 
 ```bash
-git clone <your-repository-link>
+git clone https://github.com/Harsh-15771/NST-using-AdaIN.git
 cd "NST using AdaIN"
 ```
 
@@ -299,7 +299,7 @@ pip install -r requirements.txt
 You need:
 
 - `vgg_normalised.pth`
-- a trained decoder checkpoint (for example `decoder_epoch_168.pth`)
+- a trained decoder checkpoint (for example `decoder_final.pth`)
 
 Update the decoder checkpoint path inside `app.py` if needed.
 
