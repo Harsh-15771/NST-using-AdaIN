@@ -2,8 +2,8 @@ name: Keep-Alive Ping
 
 on:
   schedule:
-    # Runs every 15 minutes to keep the Azure server awake
-    - cron: '*/15 * * * *'
+    # Runs every 5 minutes to beat Azure's 5-minute aggressive idle timeout
+    - cron: '*/5 * * * *'
   workflow_dispatch: # Allows you to manually click a button to run it on GitHub
 
 jobs:
